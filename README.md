@@ -38,11 +38,11 @@ Each camera captures an image of the photon distribution on its detector face du
 
 ```
 LABM-Camera-Analysis/
-├── peaks.C                  ← Main script: full pipeline (V3)
+├── peaks.C                        ← Main script: full pipeline (V3)
 ├── README.md
-└── runs/                     ← Run directory (maindir)
-    └── run6/                     ← Run 6 directory (example)
-        ├── data-run6-all-...     ← Accelerator condition data file
+└── runs/                          ← Run directory (maindir)
+    └── run6/                      ← Run 6 directory (example)
+        ├── data-run6-all-...      ← Accelerator condition data file
         ├── pngPics/               ← Input camera images (8 cameras)
         ├── images/                ← Output: heatmap PDFs for top events
         ├── graphs/                ← Output: beam condition histogram PDFs
