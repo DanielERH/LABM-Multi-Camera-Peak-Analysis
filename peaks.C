@@ -82,7 +82,7 @@ void peaks(){
 
    do{
       EventCount++;
-      readevent(EventCount, 1); //Read each event (is number is 1, otherwhise every "x" event) to save number of peaks and rates per peak for each camera
+      readevent(EventCount, 1); //Read each event (if number is 1, otherwhise every "x" event) to save number of peaks and rates per peak for each camera
       if (labmdata.peek()==EOF) break; //we peek the next character and if is the end of file, then we break the loop
    }while (true);
    labmdata.close();
